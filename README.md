@@ -41,7 +41,7 @@ Also, all of the volumes within a container share the available space of the con
 ## Install
 
   - Locate the installer with /Applications folder
-  - Double click to start the installation process
+  - Double click to start the installation process but select the volume that you created during 'Create Volume' section of this document.
   
   Note:  I didn't copy my settings from macOS Sequoia during the installation process.
   
