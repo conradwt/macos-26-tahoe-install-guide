@@ -1,5 +1,8 @@
 # macOS Tahoe Install Guide
 
+This is a good way to install macOS 26 Tahoe without overwriting your existing macOS version. 
+Also, all of the volumes within a container share the available space of the container’s disk.
+
 ## Create Volume
  
   - Open Disk Utility app
@@ -45,9 +48,3 @@
 ## Dual Boot
   
   - https://www.youtube.com/watch?v=xzUPFeat9U4
-  
-Notes:  
-
-- This is a good way to install macOS 26 Tahoe without overwriting your existing macOS version. 
-  Also, all of the volumes within a container share the available space of the container’s disk.
-  
