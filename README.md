@@ -9,7 +9,7 @@ Also, all of the volumes within a container share the available space of the con
   - Click View -> Show All Devices
   - In the left sidebar, Select Existing Disk Container
   - Above the Volume, click `+`
-  - Enter a `Name:`
+  - Enter a Name: `macOS 26`
   - Click `Add`
   
   Note: https://www.youtube.com/watch?v=vk1xK28KkLA
@@ -32,18 +32,38 @@ Also, all of the volumes within a container share the available space of the con
   
     - https://mrmacintosh.com/macos-tahoe-full-installer-database-download-directly-from-apple
 
-## Cleanup
+## macOS Sequoia Setup
 
-  - In the current macOS version, do the following:
-  
-    - select System Settings -> General -> Software Update -> Beta Updates -> Off
-  
+  - Disable macOS Tahoe 26 Developer Beta
+    - Select System Settings -> General -> Software Update -> Beta Updates -> Off
+  - Exclude the volume that you used to install `macOS 26 Tahoe`
+    - Select System Settings -> Spotlight -> Search Privacy
+    - Click the plus button
+    - Choose the `macOS 26` volume, and this should appear within the left sidebar of the Finder
+    - Click `Done`
+   
+    Note:  This process is necessary to prevent Spotlight from indexing files, folders, and other information
+           from other volumes.
+        
 ## Install
 
-  - Locate the installer with /Applications folder
-  - Double click to start the installation process but select the volume that you created during 'Create Volume' section of this document.
+  - Navigate to the installer within `/Applications` folder.
+  - Double click to start the installation process, but select the `macOS 26` volume.
   
-  Note:  I didn't copy my settings from macOS Sequoia during the installation process.
+    Note:  I didn't copy my settings from macOS Sequoia during the installation process.
+
+## macOS 26 Tahoe Post Install
+
+  - Enable macOS Tahoe 26 Developer Beta
+    - Select System Settings -> General -> Software Update -> Beta Updates -> macOS Tahoe 26 Developer Beta
+  - Exclude `Macintosh HD` volumes
+    - Select System Settings -> Spotlight -> Search Privacy
+    - Click the plus button
+    - Choose the `Macintosh HD`, and this should appear within the left sidebar of the Finder
+    - Click `Done`
+   
+    Note:  This process is necessary to prevent Spotlight from indexing files, folders, and other information
+           from other volumes.
   
 ## Dual Boot
   
