@@ -32,7 +32,7 @@ Also, all of the volumes within a container share the available space of the con
   
     - https://mrmacintosh.com/macos-tahoe-full-installer-database-download-directly-from-apple
 
-## macOS Sequoia Setup
+## macOS 15 Sequoia Setup
 
   - Disable macOS Tahoe 26 Developer Beta
     - Select System Settings -> General -> Software Update -> Beta Updates -> Off
