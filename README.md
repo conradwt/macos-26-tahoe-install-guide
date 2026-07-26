@@ -1,4 +1,4 @@
-# macOS Tahoe Install Guide
+# macOS 26 Tahoe Install Guide
 
 This is a good way to install macOS 26 Tahoe without overwriting your existing macOS version. 
 Also, all of the volumes within a container share the available space of the container’s disk.
