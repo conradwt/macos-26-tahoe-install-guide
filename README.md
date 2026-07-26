@@ -22,8 +22,8 @@ Also, all of the volumes within a container share the available space of the con
     - From the Terminal, type the following:
     
       ```zsh
-      softwareupdate —list-full-installers
-      softwareupdate —fetch-full-installer —full-installer-version 26.0
+      softwareupdate --list-full-installers
+      softwareupdate --fetch-full-installer --full-installer-version 26.0
       ```
 
     Note: https://www.youtube.com/watch?v=EVeQrk4MyB0 
